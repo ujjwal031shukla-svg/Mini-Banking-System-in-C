@@ -2,7 +2,7 @@
 A console-based banking application in C that allows users to create accounts, deposit, withdraw, transfer funds, and view account details. All data is stored in a binary file with basic authentication.
 
 Mini Banking System in C
-Overview
+**Overview**
 
 This is a console-based Mini Banking System written in C. It allows users to:
 
@@ -19,8 +19,8 @@ Delete accounts
 List all accounts
 
 All account data is stored persistently in a binary file (accounts.dat), so information is retained between program runs.
-
-Features
+**
+**Features****
 
 Create Account – Add a new account with a unique account number and account holder name.
 
@@ -36,7 +36,7 @@ List All Accounts – Display all existing accounts with their balance.
 
 Persistent Storage – Accounts are saved in accounts.dat file.
 
-How to Run
+**How to Run**
 
 Clone the repository:
 
@@ -56,7 +56,7 @@ Run the executable:
 
 Follow the on-screen menu to perform banking operations.
 
-Example Output
+**Example Output**
 --- Mini Banking System ---
 1. Create Account
 2. Deposit
@@ -81,13 +81,13 @@ Enter account number: 1001
 Account Holder: John
 Current Balance: 500.00
 
-Code Structure
-
+****Code Structure**
+**
 main.c – Contains all program logic including functions for account operations.
 
 accounts.dat – Binary file storing all account information.
 
-Notes
+**Notes**
 
 Maximum 5 accounts supported (configurable via MAX_ACCOUNTS macro).
 
@@ -105,6 +105,6 @@ Transaction history per account
 
 Refactor into multiple files (account.h, account.c, main.c) for modularity
 
-License
+**License**
 
 This project is open-source. Feel free to use and modify it.
